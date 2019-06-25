@@ -1,10 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
 import ImageGallery from '../src/ImageGallery';
 
-const PREFIX_URL = 'https://raw.githubusercontent.com/xiaolin/react-image-gallery/master/static/';
-//const PREFIX_URL = 'https://raw.githubusercontent.com/akku82/webcomptest/tree/master/static/';
+const PREFIX_URL = 'https://raw.githubusercontent.com/akku82/webcomptest/master/static/';
 
 class App extends React.Component {
 
