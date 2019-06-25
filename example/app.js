@@ -215,7 +215,7 @@ class App extends React.Component {
           additionalClass="app-image-gallery"
         />
 
-        <div className='app-sandbox'>
+       {/* <div className='app-sandbox'> 
 
           <div className='app-sandbox-content'>
             <h2 className='app-header'>Settings</h2>
@@ -264,6 +264,7 @@ class App extends React.Component {
           </div>
 
         </div>
+        */}
       </section>
     );
   }

@@ -1,6 +1,6 @@
 {
   "name": "webcomptest",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Web Components Testing",
   "main": "./build/image-gallery.js",
   "scripts": {
@@ -49,6 +49,7 @@
     "lodash.debounce": "^4.0.8",
     "lodash.throttle": "^4.1.1",
     "prop-types": "^15.5.8",
+    "react-image-gallery": "^0.8.17",
     "react-swipeable": "^5.2.0",
     "resize-observer-polyfill": "^1.5.0"
   }

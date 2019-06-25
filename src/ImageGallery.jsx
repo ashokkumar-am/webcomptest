@@ -250,7 +250,6 @@ export default class ImageGallery extends React.Component {
 
   setModalFullscreen(state) {
       this.setState({modalFullscreen: state});
-      // manually call because browser does not support screenchange events
       if (this.props.onScreenChange) {
         this.props.onScreenChange(state);
       }
@@ -269,7 +268,6 @@ export default class ImageGallery extends React.Component {
       } else if (gallery.webkitRequestFullscreen) {
         gallery.webkitRequestFullscreen();
       } else {
-        // fallback to fullscreen modal for unsupported browsers
         this.setModalFullscreen(true);
       }
     } else {
@@ -292,7 +290,6 @@ export default class ImageGallery extends React.Component {
         } else if (document.msExitFullscreen) {
           document.msExitFullscreen();
         } else {
-          // fallback to fullscreen modal for unsupported browsers
           this.setModalFullscreen(false);
         }
       } else {
