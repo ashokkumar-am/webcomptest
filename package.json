@@ -6,6 +6,7 @@
   "scripts": {
     "start": "gulp dev",
     "build": "gulp build",
+    "test": "mocha",
     "lint": "eslint --ext .js,.jsx src"
   },
   "repository": {
@@ -48,6 +49,7 @@
     "cors": "^2.8.5",
     "lodash.debounce": "^4.0.8",
     "lodash.throttle": "^4.1.1",
+    "mocha": "^6.1.4",
     "prop-types": "^15.5.8",
     "react-swipeable": "^5.2.0",
     "resize-observer-polyfill": "^1.5.0"
