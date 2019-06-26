@@ -46,6 +46,7 @@
     "watchify": "^3.8.0"
   },
   "dependencies": {
+    "chai": "^4.2.0",
     "cors": "^2.8.5",
     "lodash.debounce": "^4.0.8",
     "lodash.throttle": "^4.1.1",
