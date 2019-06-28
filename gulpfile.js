@@ -11,7 +11,6 @@ var cleanCSS = require('gulp-clean-css');
 var source = require('vinyl-source-stream');
 var buffer = require('vinyl-buffer');
 var watchify = require('watchify');
-var chai = require('chai');
 var cors = require('cors')
 
 var whitelist = ['https://github.com/akku82/webcomptest/tree/master/static/']

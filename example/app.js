@@ -200,56 +200,6 @@ class App extends React.Component {
           additionalClass="app-image-gallery"
         />
 
-       {/* <div className='app-sandbox'> 
-
-          <div className='app-sandbox-content'>
-            <h2 className='app-header'>Settings</h2>
-
-            <ul className='app-buttons'>
-              <li>
-                <div className='app-interval-input-group'>
-                  <span className='app-interval-label'>Play Interval</span>
-                  <input
-                    className='app-interval-input'
-                    type='text'
-                    onChange={this._handleInputChange.bind(this, 'slideInterval')}
-                    value={this.state.slideInterval}/>
-                </div>
-              </li>
-
-              <li>
-                <div className='app-interval-input-group'>
-                  <span className='app-interval-label'>Slide Duration</span>
-                  <input
-                    className='app-interval-input'
-                    type='text'
-                    onChange={this._handleInputChange.bind(this, 'slideDuration')}
-                    value={this.state.slideDuration}/>
-                </div>
-              </li>
-
-              <li>
-                <div className='app-interval-input-group'>
-                  <span className='app-interval-label'>Thumbnail Bar Position</span>
-                  <select
-                    className='app-interval-input'
-                    value={this.state.thumbnailPosition}
-                    onChange={this._handleThumbnailPositionChange.bind(this)}
-                  >
-                    <option value='bottom'>Bottom</option>
-                    <option value='top'>Top</option>
-                    <option value='left'>Left</option>
-                    <option value='right'>Right</option>
-                  </select>
-                </div>
-              </li>
-            </ul>
-
-         
-          </div>
-
-        </div>
-        */}
       </section>
     );
   }
